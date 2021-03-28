@@ -1,0 +1,69 @@
+body {
+    overflow: scroll;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin: 30px;
+    background-color: #FFF5EE;
+}
+
+.header{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    color: #f8b195;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+.li_nav {
+    float: left;
+}
+  
+.li_nav a {
+    display: block;
+    color: #6c5b7b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.li_nav a:hover:not(.active) {
+    color: #c06c84;
+}
+
+.li_nav .active {
+    color: #f67280;
+}
+
+.welcome {
+    width: 550px;
+    padding: auto;
+    margin: auto;
+    line-height: 1.9;
+}
+
+#welcome_img {
+    padding: 0 6px;
+    width: 24.99999%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .images{
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .images {
+      width: 100%;
+    }
+}
